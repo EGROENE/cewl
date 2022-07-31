@@ -2,4 +2,62 @@
     --primary-color: #17296D;
     --secondary-color: #2FACD3;
     --tertiary-color: #DBD7D7;
+    --primary-font: 'Barlow Condensed', sans-serif;
+    --secondary-font: 'Lato', sans-serif;
+    --size-4: 0.25rem;
+    --size-8: 0.5rem;
+    --size-16: 1rem;
+    --size-24: 1.5rem;
+    --size-32: 2rem;
+    --size-40: 2.5rem;
+    --size-48: 3rem;
+    --size-56: 3.5rem;
+    --size-64: 4rem;
+}
+
+body {
+    font-family: var(--primary-font);
+}
+
+#main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid black;
+}
+
+#main-header img {
+    width: 50%;
+}
+
+#main-header ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100%;
+}
+
+#main-header ul li {
+    margin-right: var(--size-40);
+}
+
+#main-header ul li a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: var(--size-24);
+    font-weight: 600;
+    border-bottom: var(--size-4) solid transparent;
+    padding: var(--size-8) 0;
+    letter-spacing: 2px;
+}
+
+#main-header ul li a:hover {
+    cursor: pointer;
+    border-bottom: var(--size-4) solid var(--secondary-color);
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: var(--size-24);
+    font-weight: 600;
+    color: var(--secondary-color);
 }
