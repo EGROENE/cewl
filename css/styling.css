@@ -1,3 +1,4 @@
+/* START DEFAULT STYLING */
 :root {
     --primary-color: #17296D;
     --secondary-color: #2FACD3;
@@ -17,6 +18,7 @@
 
 body {
     font-family: var(--primary-font);
+    font-size: var(--size-24);
 }
 
 #main-header {
@@ -61,3 +63,38 @@ body {
     font-weight: 600;
     color: var(--secondary-color);
 }
+/* END DEFAULT STYLING */
+
+/* START index.html STYLING */
+#index-one {
+    margin: var(--size-16) 0;
+    display: grid;
+    row-gap: var(--size-24);
+}
+
+#index-one img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: var(--size-8);
+}
+
+.index-one-item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: var(--size-16);
+    align-items: center;
+}
+
+.index-one-item header {
+    font-size: var(--size-32);
+    font-weight: 600;
+}
+
+.index-one-item p {
+    line-height: var(--size-40);
+}
+
+.index-one-text-align-right {
+    text-align: right;
+}
+/* END index.html STYLING */
