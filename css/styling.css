@@ -111,7 +111,7 @@ footer {
     line-height: var(--size-40);
 }
 
-.index-one-text-align-right {
+.index-one-item.img-last div {
     text-align: right;
 }
 /* END index.html STYLING */

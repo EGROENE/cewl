@@ -60,6 +60,10 @@
     .index-one-item.img-last {
         flex-direction: column-reverse;
     }
+
+    .index-one-item.img-last div {
+        text-align: center;
+    }
 /* END index.html STYLING */
 }
 
