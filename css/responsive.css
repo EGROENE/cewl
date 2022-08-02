@@ -36,6 +36,14 @@
     #main-header ul li {
         margin-right: var(--size-16);
     }
+
+    #main-header ul li a {
+        font-size: var(--size-20);
+    }
+
+    #main-header ul li a:hover {
+        font-size: var(--size-20);
+    }
 /* END DEFAULT STYLING */
 
 /* START index.html STYLING */
