@@ -105,6 +105,7 @@ footer {
 .index-one-item header {
     font-size: var(--size-32);
     font-weight: 600;
+    color: var(--primary-color);
 }
 
 .index-one-item p {
