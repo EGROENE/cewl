@@ -115,3 +115,15 @@ footer {
     text-align: right;
 }
 /* END index.html STYLING */
+
+/* START about.html STYLING */
+#about-one {
+    display: flex;
+    justify-content: space-around;
+}
+
+#about-one header {
+    font-size: var(--size-40);
+    color: var(--primary-color);
+}
+/* END about.html STYLING */
