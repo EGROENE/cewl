@@ -16,13 +16,13 @@
     <!--LINK(S) TO GOOGLE FONT(S)-->
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Lato&display=swap" rel="stylesheet">
 </head>
-<body>
+<body onload="styleSelectedPageNavLink()">
     <section id="main-header">
         <a href="../index.html" id="main-logo-link"><img src="../assets/main-logo.png" alt="cewl-logo"></a>
         <nav>
             <ul>
                 <li>
-                    <a href="#" style="border-bottom: var(--size-4) solid var(--secondary-color); color: var(--secondary-color);">About CEWL</a>
+                    <a href="#" class="selected-link">About CEWL</a>
                 </li>
                 <li>
                     <a href="#">Pastors</a>
@@ -64,6 +64,6 @@
     <footer>
         <p>&copy; 2022, Church of the Everlasting Waters of Life</p>
     </footer>
-    <script src="../main.js"></script>
+    <script type="text/javascript" src="../main.js"></script>
 </body>
 </html>
