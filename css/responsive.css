@@ -30,3 +30,27 @@
 }
 /* END index.html STYLING */
 }
+
+@media screen and (max-width: 425px) {
+/* START DEFAULT STYLING */
+    #main-header ul li {
+        margin-right: var(--size-16);
+    }
+/* END DEFAULT STYLING */
+
+/* START index.html STYLING */
+    .index-one-item {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .index-one-item p {
+        margin: var(--size-4);
+    }
+
+    .index-one-item.img-last {
+        flex-direction: column-reverse;
+    }
+/* END index.html STYLING */
+}
