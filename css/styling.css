@@ -70,7 +70,6 @@ body {
     cursor: pointer;
     border-bottom: var(--size-4) solid var(--secondary-color);
     text-decoration: none;
-    color: var(--primary-color);
     font-size: var(--size-24);
     font-weight: 600;
     color: var(--secondary-color);
