@@ -120,6 +120,7 @@ footer {
 #about-one {
     display: flex;
     justify-content: space-around;
+    padding: var(--size-16) 0;
 }
 
 #about-one header {
