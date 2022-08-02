@@ -123,8 +123,14 @@ footer {
     padding: var(--size-16) 0;
 }
 
-#about-one header {
+#about-one header,
+#about-two header {
     font-size: var(--size-40);
     color: var(--primary-color);
+}
+
+#about-two {
+    text-align: center;
+    padding: 0 var(--size-64);
 }
 /* END about.html STYLING */
