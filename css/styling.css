@@ -129,6 +129,10 @@ footer {
     color: var(--primary-color);
 }
 
+iframe {
+    width: 50%;
+}
+
 #about-two {
     text-align: center;
     padding: 0 var(--size-64);

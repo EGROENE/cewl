@@ -66,6 +66,25 @@
         text-align: center;
     }
 /* END index.html STYLING */
+
+/* START about.html STYLING */
+#about-one {
+    flex-direction: column;
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+}
+
+#about-two {padding: 0 var(--size-40);}
+/* END about.html STYLING */
+}
+
+@media screen and (max-width: 375px) {
+/* START about.html STYLING */
+    
+/* END about.html STYLING */
 }
 
 @media screen and (max-width: 325px) {
