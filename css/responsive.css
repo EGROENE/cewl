@@ -62,3 +62,10 @@
     }
 /* END index.html STYLING */
 }
+
+@media screen and (max-width: 325px) {
+/* START DEFAULT STYLING */
+    #main-header ul li {margin-right: var(--size-12);}
+    #main-header ul li a {font-size: var(--size-16);}
+/* END DEFAULT STYLING */
+}
