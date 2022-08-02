@@ -25,12 +25,13 @@ body {
 
 #main-header {
     display: flex;
-    /* justify-content: space-between; */
-    /* align-items: center; */
     border-bottom: var(--size-4) solid black;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 
 #main-logo-link:hover {
