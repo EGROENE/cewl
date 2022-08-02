@@ -72,6 +72,12 @@ body {
     font-weight: 600;
     color: var(--secondary-color);
 }
+
+footer {
+    text-align: center;
+    font-size: var(--size-16);
+    color: gray;
+}
 /* END DEFAULT STYLING */
 
 /* START index.html STYLING */
