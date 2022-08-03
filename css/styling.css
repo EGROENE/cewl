@@ -154,7 +154,7 @@ iframe {
 }
 /* END about.html STYLING */
 
-/* START pastors.html STYLING */
+/* START staff.html STYLING */
 #staff-one {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -186,4 +186,47 @@ iframe {
 #staff-one div img {
     width: 100%
 }
-/* END pastors.html STYLING */
+/* END staff.html STYLING */
+
+/* START events.html STYLING */
+#page-header {
+    color: var(--primary-color);
+    font-size: var(--size-32);
+    padding: 0 var(--size-64);
+    text-align: center;
+    margin-top: var(--size-16);
+}
+
+#reg-events-header {
+    color: var(--secondary-color);
+    font-size: var(--size-40);
+    text-align: center;
+    margin: var(--size-32) 0 var(--size-16) 0;
+}
+
+#events-one {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: var(--size-16);
+}
+
+#events-one a {
+    text-decoration: none;
+    color: var(--tertiary-color);
+    border: var(--size-4) solid var(--secondary-color);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--primary-color);
+    padding: var(--size-16);
+}
+
+#events-one a:hover {
+    opacity: 0.7;
+}
+
+#events-one a header {
+    font-weight: 600;
+}
+/* END events.html STYLING */
