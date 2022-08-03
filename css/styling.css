@@ -229,4 +229,15 @@ iframe {
 #events-one a header {
     font-weight: 600;
 }
+
+#events-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+
+#events-two a {
+    text-decoration: none;
+    border: var(--size-4) solid var(--tertiary-color);
+}
 /* END events.html STYLING */
