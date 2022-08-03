@@ -30,6 +30,10 @@
         row-gap: var(--size-40);
     }
 /* END index.html STYLING */
+
+/* END staff.html STYLING */
+    #staff-one {grid-template-columns: repeat(2, 1fr);}
+/* END staff.html STYLING */
 }
 
 @media screen and (max-width: 425px) {
