@@ -25,10 +25,10 @@
 /* END DEFAULT STYLING */
 
 /* START index.html STYLING */
-#index-one {
-    margin: var(--size-24) 0;
-    row-gap: var(--size-40);
-}
+    #index-one {
+        margin: var(--size-24) 0;
+        row-gap: var(--size-40);
+    }
 /* END index.html STYLING */
 }
 
