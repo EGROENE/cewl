@@ -157,9 +157,10 @@ iframe {
 /* START pastors.html STYLING */
 #pastors-one {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: var(--size-56);
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: var(--size-40);
     row-gap: var(--size-32);
+    padding: var(--size-40);
 }
 
 #pastors-one div img {
