@@ -197,7 +197,7 @@ iframe {
     margin-top: var(--size-16);
 }
 
-#reg-events-header {
+.event-type-header {
     color: var(--secondary-color);
     font-size: var(--size-40);
     text-align: center;
