@@ -163,8 +163,23 @@ iframe {
     padding: var(--size-40);
 }
 
-#staff-one div {
+.staff-one-item {
     border: var(--size-4) solid var(--primary-color);
+}
+
+.staff-one-text {
+    padding: var(--size-12);
+    text-align: center;
+}
+
+.staff-one-text header:first-child {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.staff-one-text header:nth-child(2) {
+    color: var(--secondary-color);
+    font-weight: 600;
 }
 
 #staff-one div img {
