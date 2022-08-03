@@ -155,7 +155,7 @@ iframe {
 /* END about.html STYLING */
 
 /* START pastors.html STYLING */
-#pastors-one {
+#staff-one {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: var(--size-40);
@@ -163,7 +163,11 @@ iframe {
     padding: var(--size-40);
 }
 
-#pastors-one div img {
+#staff-one div {
+    border: var(--size-4) solid var(--primary-color);
+}
+
+#staff-one div img {
     width: 100%
 }
 /* END pastors.html STYLING */
