@@ -83,6 +83,13 @@ iframe {
 
 #about-two {padding: 0 var(--size-40);}
 /* END about.html STYLING */
+
+/* START staff.html STYLING */
+    #staff-one {
+        grid-template-columns: repeat(1, 1fr);
+        padding: var(--size-4);
+    }
+/* END staff.html STYLING */
 }
 
 @media screen and (max-width: 375px) {
