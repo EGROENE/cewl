@@ -175,6 +175,7 @@ iframe {
 .staff-one-text header:first-child {
     color: var(--primary-color);
     font-weight: 600;
+    font-size: var(--size-32);
 }
 
 .staff-one-text header:nth-child(2) {
