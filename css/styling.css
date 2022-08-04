@@ -258,3 +258,83 @@ iframe {
     color: var(--secondary-color);
 }
 /* END events.html STYLING */
+
+/* START contact.html STYLING */
+#contact-one {
+    display: flex;
+    justify-content: space-around;
+    border: var(--size-4) solid var(--tertiary-color);
+    margin-top: var(--size-20);
+    padding: var(--size-12) 0;
+}
+
+#contact-one div:first-child header,
+#contact-one div:first-child span,
+form label {
+    font-size: var(--size-32);
+    color: var(--primary-color);
+}
+
+#contact-one div:first-child p {
+    color: var(--secondary-color);
+}
+
+#contact-socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contact-socials a {
+    color: var(--secondary-color);
+    font-size: var(--size-32);
+}
+
+#contact-socials a:hover {
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
+#contact-one div:nth-child(2) header {
+    text-align: center;
+    font-weight: 600;
+    font-size: var(--size-32);
+    color: var(--secondary-color);
+}
+
+form {
+    display: grid;
+    row-gap: var(--size-16);
+}
+
+form div input,
+form div textarea {
+    padding: var(--size-8);
+    width: 100%;
+    font-family: var(--secondary-font);
+}
+
+#form-comments {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+button {
+    width: 103%;
+    padding: var(--size-12);
+    font-size: var(--size-20);
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: var(--size-12);
+    border: var(--size-4) solid transparent;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: var(--tertiary-color);
+    color: black;
+    border: var(--size-4) solid black;
+}
+/* END contact.html STYLING */
