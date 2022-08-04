@@ -7,6 +7,28 @@ const styleSelectedPageNavLink = () => {
     }
 }
 
+// STAFF PAGE
+const staffMembers = [
+    { imgURL: "../assets/charles-parkley.jpg", imgAlt:"charles-parkley", name: "Rev. Charles Parkley", title: "Senior Pastor", about: "Vernunft fängt wieder an zu sprechen Und Hoffnung wieder an zu sprechen Und Hoffnung wieder an zu sprechen Und Hoffnung wieder an zu blühn; Man sehnt sich nach des Lebens Quelle hin."},
+    { imgURL: "../assets/bruce-twarze.jpg", imgAlt:"bruce-twarze", name: "Rev. Bruce Twarze", title: "Assistant Pastor", about: "Vernunft fängt wieder an zu sprechen Und Hoffnung wieder an zu sprechen Und Hoffnung wieder an zu sprechen Und Hoffnung wieder an zu blühn; Man sehnt sich nach des Lebens Quelle hin."},
+    { imgURL: "../assets/giulia-rojas.jpg", imgAlt:"giulia-rojas", name: "Giulia Rojas", title: "Women's Ministry, Music Coordinator", about: "Vernunft fängt wieder an zu sprechen Und Hoffnung wieder an zu sprechen Und Hoffnung wieder an zu sprechen Und Hoffnung wieder an zu blühn; Man sehnt sich nach des Lebens Quelle hin."},
+    { imgURL: "../assets/jonnie-chevrapramutongh.jpg", imgAlt:"jonnie-chevrapramutongh", name: "Jonnie Chevrapramutongh", title: "Men's Ministry, Youth Pastor", about: "Vernunft fängt wieder an zu sprechen Und Hoffnung wieder an zu sprechen Und Hoffnung wieder an zu sprechen Und Hoffnung wieder an zu blühn; Man sehnt sich nach des Lebens Quelle hin."},
+    { imgURL: "../assets/franziska-schaefer.jpg", imgAlt:"franziska-schaefer", name: "Franziska Schaefer", title: "Youth Pastor", about: "Vernunft fängt wieder an zu sprechen Und Hoffnung wieder an zu sprechen Und Hoffnung wieder an zu sprechen Und Hoffnung wieder an zu blühn; Man sehnt sich nach des Lebens Quelle hin."},
+    { imgURL: "../assets/phil-pikkelsen.jpg", imgAlt:"phil-pikkelsen", name: "Phil Pikkelsen", title: "Tech Coordinator", about: "Vernunft fängt wieder an zu sprechen Und Hoffnung wieder an zu sprechen Und Hoffnung wieder an zu sprechen Und Hoffnung wieder an zu blühn; Man sehnt sich nach des Lebens Quelle hin."}
+];
+
+const populateStaff = () => {
+    for (const member of staffMembers) {
+        document.getElementById('staff-one').innerHTML += '<div class="staff-one-item">'
+        + '<img src="' + member.imgURL + '"' + 'alt="' + member.imgAlt + '">'
+        + '<div class="staff-one-text">'
+        + '<header>' + member.name + '</header>'
+        + '<header>' + member.title + '</header>'
+        + '<p>' + member.about + '</p>'
+        + '</div>'
+    }
+}
+
 // EVENTS PAGE
 const events = [
     { eventSocialLink: "#", eventHeader: "4th-Of-July Cookout", eventDate: "Mon July 4", eventTime: "4:00pm", eventPlace: "Liberty Park" },
