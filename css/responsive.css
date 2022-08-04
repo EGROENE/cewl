@@ -41,6 +41,13 @@
         gap: var(--size-16);
     }
 /* END events.html STYLING */
+
+/* START contact.html STYLING */
+    #contact-one {
+        display: grid;
+        row-gap: var(--size-32);
+    }
+/* END contact.html STYLING */
 }
 
 @media screen and (max-width: 425px) {
@@ -106,6 +113,33 @@ iframe {
 
     #events-two {grid-template-columns: repeat(2, 1fr);}
 /* END events.html STYLING */
+
+/* START contact.html STYLING */
+    #contact-info {
+        padding: 0 var(--size-20);
+    }
+
+    form {
+        text-align: center;
+        justify-items: center;
+    }
+
+    form div input {
+        width: 100%;
+    }
+
+    form div textarea {
+        width: 85%;
+    }
+
+    #form-comments {
+        align-items: center;
+    }
+
+    button {
+        width: 94%;
+    }
+/* END contact.html STYLING */
 }
 
 @media screen and (max-width: 375px) {
