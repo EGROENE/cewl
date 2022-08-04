@@ -8,10 +8,6 @@ const styleSelectedPageNavLink = () => {
 }
 
 // EVENTS PAGE
-// Set up template w/ corresponding properties (ids/classes that correspond to object keys in events array) in html, then populate using js function for as many objects are in events array (use a for of or a for loop)
-// NEXT: FIND A WAY TO CREATE HTML WITH JS FUNCTION (within loop, so new item is made for each object in events array)
-// If not possible to populate html using js, make a separate function for each upcoming event & run upon pageload
-// Array of objects containing info for each event:
 const events = [
     { eventSocialLink: "#", eventHeader: "4th-Of-July Cookout", eventDate: "Mon July 4", eventTime: "4:00pm", eventPlace: "Liberty Park" },
     { eventSocialLink: "#", eventHeader: "3-on-3 Basketball Tournament", eventDate: "Sat July 23", eventTime: "10:00am", eventPlace: "Umlauf Middle School" },
