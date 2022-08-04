@@ -35,6 +35,5 @@ const populateEvents = () => {
         + event.eventPlace
         + '</p>'
         + '</a>';
-        
     }
 }
