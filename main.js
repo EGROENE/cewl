@@ -30,7 +30,26 @@ const populateStaff = () => {
 }
 
 // EVENTS PAGE
-const events = [
+// Regular Events:
+const regularEvents = [
+    { eventSocialLink: '#', eventHeader: "Men's Society", eventInfo: "Saturdays at 10:00am in Meeting Area 2" },
+    { eventSocialLink: '#', eventHeader: "Women's Society", eventInfo: "Saturdays at 10:00am in Meeting Area 3" },
+    { eventSocialLink: '#', eventHeader: "Couple's Society", eventInfo: "1st & 3rd Wednesday at 7:00pm in Meeting Area 1" },
+    { eventSocialLink: '#', eventHeader: "Young Adults (ages 18-30)", eventInfo: "1st & 3rd Friday at 6:00pm in Meeting Area 1" },
+    { eventSocialLink: '#', eventHeader: "Youth Group (ages 12-17)", eventInfo: "Sundays after the morning service in Meeting Area 3" }
+];
+
+const populateRegEvents = () => {
+    for (event of regularEvents) {
+        document.getElementById('events-one').innerHTML += '<a href="' + event.eventSocialLink + '">'
+        + '<header>' + event.eventHeader + '</header>'
+        + '<p>' + event.eventInfo + '</p>'
+        + '</a>'
+    }
+}
+
+// Upcoming Events:
+const upcomingEvents = [
     { eventSocialLink: "#", eventHeader: "4th-Of-July Cookout", eventDate: "Mon July 4", eventTime: "4:00pm", eventPlace: "Liberty Park" },
     { eventSocialLink: "#", eventHeader: "3-on-3 Basketball Tournament", eventDate: "Sat July 23", eventTime: "10:00am", eventPlace: "Umlauf Middle School" },
     { eventSocialLink: "#", eventHeader: "Crochet-Off", eventDate: "Sat August 6", eventTime: "10:00am-3:00pm", eventPlace: "Church Basement" },
@@ -40,9 +59,9 @@ const events = [
     { eventSocialLink: "#", eventHeader: "Feed God's Children Carwash", eventDate: "Sat September 10", eventTime: "8:00am-5:00pm", eventPlace: "Church Parking Lot" },
     { eventSocialLink: "#", eventHeader: "Group Singing", eventDate: "Sun September 20", eventTime: "5:30pm-start of evening service", eventPlace: "Sanctuary" }
 ]
-// Function to populate events.html (run upon loading of page):
-const populateEvents = () => {
-    for (const event of events) {
+
+const populateUpcomingEvents = () => {
+    for (const event of upcomingEvents) {
         document.getElementById('events-two').innerHTML += '<a href="' + event.eventSocialLink + '"' + 'class="event">' 
         + '<header>' 
         + event.eventHeader 
