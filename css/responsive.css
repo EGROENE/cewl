@@ -34,6 +34,13 @@
 /* END staff.html STYLING */
     #staff-one {grid-template-columns: repeat(2, 1fr);}
 /* END staff.html STYLING */
+
+/* START events.html STYLING */
+    #events-one {
+        grid-template-columns: repeat(3, 1fr);
+        gap: var(--size-16);
+    }
+/* END events.html STYLING */
 }
 
 @media screen and (max-width: 425px) {
@@ -90,6 +97,15 @@ iframe {
         padding: var(--size-4);
     }
 /* END staff.html STYLING */
+
+/* START events.html STYLING */
+    #events-one {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--size-16);
+    }
+
+    #events-two {grid-template-columns: repeat(2, 1fr);}
+/* END events.html STYLING */
 }
 
 @media screen and (max-width: 375px) {
