@@ -13,8 +13,14 @@ const styleSelectedPageNavLink = () => {
 // If not possible to populate html using js, make a separate function for each upcoming event & run upon pageload
 // Array of objects containing info for each event:
 const events = [
-    { eventSocialLink: "#", eventHeader: "4th-Of-July Cookout", eventDate: "July 4", eventTime: "4:00pm", eventPlace: "Liberty Park" },
-    { eventSocialLink: "#", eventHeader: "3-on-3 Basketball Tournament", eventDate: "July 23", eventTime: "10:00am", eventPlace: "Umlauf Middle School" }
+    { eventSocialLink: "#", eventHeader: "4th-Of-July Cookout", eventDate: "Mon July 4", eventTime: "4:00pm", eventPlace: "Liberty Park" },
+    { eventSocialLink: "#", eventHeader: "3-on-3 Basketball Tournament", eventDate: "Sat July 23", eventTime: "10:00am", eventPlace: "Umlauf Middle School" },
+    { eventSocialLink: "#", eventHeader: "Crochet-Off", eventDate: "Sat August 6", eventTime: "10:00am-3:00pm", eventPlace: "Church Basement" },
+    { eventSocialLink: "#", eventHeader: "Food Truck", eventDate: "Sat August 20", eventTime: "8:00am-noon", eventPlace: "Church Parking Lot" },
+    { eventSocialLink: "#", eventHeader: "2022 Kickoff!", eventDate: "Sat August 27", eventTime: "10:30-end of UT game", eventPlace: "Church Parking Lot" },
+    { eventSocialLink: "#", eventHeader: "Labor Day Breakfast", eventDate: "Mon September 5", eventTime: "7:00am-noon", eventPlace: "Meeting Area 1" },
+    { eventSocialLink: "#", eventHeader: "Feed God's Children Carwash", eventDate: "Sat September 10", eventTime: "8:00am-5:00pm", eventPlace: "Church Parking Lot" },
+    { eventSocialLink: "#", eventHeader: "Group Singing", eventDate: "Sun September 20", eventTime: "5:30pm-start of evening service", eventPlace: "Sanctuary" }
 ]
 // Function to populate events.html (run upon loading of page):
 const populateEvents = () => {
@@ -34,7 +40,5 @@ const populateEvents = () => {
         + '</p>'
         + '</a>';
         
-    } 
-        /* document.getElementById('event-time').innerHTML = event.eventTime;
-        document.getElementById('event-place').innerHTML = event.eventPlace; */
     }
+}
