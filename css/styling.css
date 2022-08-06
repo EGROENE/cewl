@@ -261,9 +261,7 @@ iframe {
 #contact-one {
     display: flex;
     justify-content: space-around;
-    border: var(--size-4) solid var(--tertiary-color);
     margin-top: var(--size-20);
-    padding: var(--size-12) 0;
 }
 
 #contact-one div:first-child header,
