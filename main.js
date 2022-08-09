@@ -57,7 +57,7 @@ const upcomingEvents = [
     { eventSocialLink: "#", eventHeader: "2022 Kickoff!", eventDate: "Sat August 27", eventTime: "10:30-end of UT game", eventPlace: "Church Parking Lot" },
     { eventSocialLink: "#", eventHeader: "Labor Day Breakfast", eventDate: "Mon September 5", eventTime: "7:00am-noon", eventPlace: "Meeting Area 1" },
     { eventSocialLink: "#", eventHeader: "Feed God's Children Carwash", eventDate: "Sat September 10", eventTime: "8:00am-5:00pm", eventPlace: "Church Parking Lot" },
-    { eventSocialLink: "#", eventHeader: "Group Singing", eventDate: "Sun September 20", eventTime: "5:30pm-start of evening service", eventPlace: "Sanctuary" }
+    { eventSocialLink: "#", eventHeader: "Group Singing", eventDate: "Sun September 25", eventTime: "5:30pm-start of evening service", eventPlace: "Sanctuary" }
 ]
 
 const populateUpcomingEvents = () => {
